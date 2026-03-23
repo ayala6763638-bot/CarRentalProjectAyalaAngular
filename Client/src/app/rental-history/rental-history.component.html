@@ -1,0 +1,45 @@
+<div class="history-wrapper" *ngIf="user; else noUser">
+  <div class="history-header">
+    <h2>שלום, {{ user.firstName }}! 👋</h2>
+    <p>צפה בסיכום הנסיעות וההשכרות שלך ב-DriveWay</p>
+  </div>
+
+  <div class="stats-badge" *ngIf="rents.length > 0">
+     נמצאו <strong>{{ rents.length }}</strong> השכרות רשומות במערכת
+  </div>
+
+  <div *ngIf="rents.length === 0" class="no-rents-card">
+    <div class="icon">🚗</div>
+    <p>נראה שעדיין לא יצאנו לדרך ביחד...</p>
+    <small>זה הזמן לבחור רכב ולהתחיל את הנסיעה הראשונה שלך!</small>
+  </div>
+
+  <div class="table-responsive" *ngIf="rents.length > 0">
+    <table class="modern-table">
+      <thead>
+        <tr>
+          <th>ID רכב</th>
+          <th>תאריך יציאה</th>
+          <th>תאריך חזרה</th>
+          <th>יעד / מטרת הנסיעה</th>
+          <th>סטטוס</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let rent of rents">
+          <td class="bold-text">#{{ rent.codeCar }}</td>
+          <td>{{ rent.startDate | date:'dd/MM/yyyy' }}</td>
+          <td>{{ rent.endDate | date:'dd/MM/yyyy' }}</td>
+          <td class="goal-cell">{{ rent.goal || 'כללי' }}</td>
+          <td><span class="status-tag">הושלם</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<ng-template #noUser>
+  <div class="login-alert">
+    <p>כדי לצפות בהיסטוריית הנסיעות שלך, יש להתחבר למערכת.</p>
+  </div>
+</ng-template>

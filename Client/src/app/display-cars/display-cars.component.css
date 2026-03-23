@@ -1,0 +1,148 @@
+.main-layout {
+    direction: rtl;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    padding-bottom: 50px;
+  }
+  
+  .page-header {
+    background: linear-gradient(135deg, #1a2f9a 0%, #344cb7 100%);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+  }
+  
+  .page-header h1 { margin: 0; font-size: 2.5rem; }
+  
+  /* סינון */
+  .filters-bar {
+    background: white;
+    max-width: 900px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-end;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  }
+  
+  .filter-group { display: flex; flex-direction: column; gap: 5px; }
+  .filter-group label { font-size: 0.9rem; font-weight: bold; color: #555; }
+  .filter-group input { 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    width: 160px;
+  }
+  
+  .btn-clear {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* קונטיינר רכבים */
+  .cars-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+  }
+  
+  /* טופס השכרה - Checkout */
+  .checkout-wrapper { padding: 20px; }
+  .checkout-card {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
+  .checkout-header {
+    background: #f8f9fa;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn-back {
+    background: #e9ecef;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .rent-form-styled { padding: 30px; }
+  
+  .section { margin-bottom: 30px; }
+  .section h4 { color: #1a2f9a; margin-bottom: 20px; display: flex; align-items: center; }
+  .step {
+    background: #1a2f9a;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 0.8rem;
+  }
+  
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+  .form-group { display: flex; flex-direction: column; margin-bottom: 15px; }
+  .form-group label { margin-bottom: 5px; font-weight: 600; color: #666; }
+  input { padding: 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 1rem; }
+  
+  /* כרטיס ויזואלי */
+  .credit-card-visual {
+    background: linear-gradient(135deg, #2f3542 0%, #57606f 100%);
+    height: 160px;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  
+  .card-chip {
+    width: 40px;
+    height: 30px;
+    background: #f1c40f;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .card-number-view { font-size: 1.3rem; letter-spacing: 2px; text-align: center; }
+  .card-info-row { margin-top: 20px; font-size: 0.8rem; opacity: 0.8; }
+  
+  .btn-submit-final {
+    width: 100%;
+    padding: 15px;
+    background: #2ed573;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-submit-final:hover:not(:disabled) { background: #26af5f; }
+  .btn-submit-final:disabled { background: #ccc; cursor: not-allowed; }

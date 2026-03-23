@@ -1,0 +1,31 @@
+<div class="car-card" *ngIf="car">
+    <div class="car-level-badge">רמה {{ car.level }}</div>
+
+    <div class="car-header">
+        <span class="car-id">#{{ car.code }}</span>
+        <div class="car-icon">🚗</div>
+    </div>
+
+    <div class="car-body">
+        <div class="info-row">
+            <span class="label">💺 מקומות ישיבה</span>
+            <span class="value">{{ car.numSeats }} מושבים</span>
+        </div>
+
+        <div class="price-section">
+            <div class="price-item main">
+                <span class="price-label">מחיר ליום:</span>
+                <span class="price-value">{{ car.priceForDay }} ₪</span>
+            </div>
+            <div class="price-item discount">
+                <span class="price-label">3 ימים ומעלה:</span>
+                <span class="price-value">{{ car.priceForThreeDaysAndMore }} ₪</span>
+            </div>
+        </div>
+    </div>
+
+    <button (click)="onSelectCar()" class="btn-rent">
+        <span>הזמן עכשיו</span>
+        <span class="arrow">←</span>
+    </button>
+</div>

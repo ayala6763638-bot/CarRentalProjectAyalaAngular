@@ -1,0 +1,97 @@
+<div class="main-layout">
+    <div class="page-header">
+      <h1>מאגר הרכבים שלנו</h1>
+      <p>מצא את הרכב המושלם עבורך במחיר המשתלם ביותר</p>
+    </div>
+  
+    <div class="filters-bar" *ngIf="!selectedCar">
+      <div class="filter-group">
+        <label>מספר מושבים</label>
+        <input type="number" [(ngModel)]="filterSeats" (ngModelChange)="applyFilters()" placeholder="לדוג' 5">
+      </div>
+  
+      <div class="filter-group">
+        <label>רמת רכב</label>
+        <input type="number" [(ngModel)]="filterLevel" (ngModelChange)="applyFilters()" placeholder="1-5">
+      </div>
+  
+      <div class="filter-group">
+        <label>מחיר מקסימלי (₪)</label>
+        <input type="number" [(ngModel)]="maxPrice" (ngModelChange)="applyFilters()" placeholder="עד מחיר...">
+      </div>
+  
+      <button class="btn-clear" (click)="clearFilters()">נקה סינון</button>
+    </div>
+  
+    <div class="cars-container" *ngIf="!selectedCar">
+      <h3 *ngIf="filteredArr.length === 0" class="no-results">לא נמצאו רכבים התואמים לחיפוש...</h3>
+      <app-cars *ngFor="let car of filteredArr" [car]="car" (carSelected)="onCarPicked($event)">
+      </app-cars>
+    </div>
+  
+    <div *ngIf="selectedCar" class="checkout-wrapper">
+      <div class="checkout-card">
+        
+        <div class="checkout-header">
+          <button type="button" (click)="selectedCar = null" class="btn-back">
+            <span>&rarr;</span> חזור לרשימה
+          </button>
+          <h3>השכרת רכב מספר: {{ selectedCar.code }}</h3>
+        </div>
+  
+        <form (ngSubmit)="onSubmitRent()" #rentForm="ngForm" class="rent-form-styled">
+          
+          <div class="section">
+            <h4><span class="step">1</span> פרטי השכרה</h4>
+            <div class="form-row">
+              <div class="form-group">
+                <label>תאריך התחלה</label>
+                <input type="date" [(ngModel)]="rentModel.startDate" name="startDate" required>
+              </div>
+              <div class="form-group">
+                <label>תאריך חזרה</label>
+                <input type="date" [(ngModel)]="rentModel.endDate" name="endDate" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>מטרת הנסיעה</label>
+              <input type="text" [(ngModel)]="rentModel.goal" name="goal" placeholder="טיול, עבודה וכדומה">
+            </div>
+          </div>
+  
+          <div class="section payment-section">
+            <h4><span class="step">2</span> פרטי תשלום</h4>
+            
+            <div class="credit-card-visual">
+              <div class="card-chip"></div>
+              <div class="card-number-view">{{ paymentModel.creaditCard || '**** **** **** ****' }}</div>
+              <div class="card-info-row">
+                <div class="label-view">VALID THRU: {{ paymentModel.validity || 'MM/YY' }}</div>
+              </div>
+            </div>
+  
+            <div class="form-group">
+              <label>מספר כרטיס אשראי</label>
+              <input type="text" [(ngModel)]="paymentModel.creaditCard" name="creaditCard" 
+                     required minlength="16" maxlength="16" placeholder="16 ספרות ללא רווחים">
+            </div>
+  
+            <div class="form-row">
+              <div class="form-group">
+                <label>תוקף</label>
+                <input type="text" [(ngModel)]="paymentModel.validity" name="validity" required placeholder="12/26">
+              </div>
+              <div class="form-group">
+                <label>CVC (3 ספרות)</label>
+                <input type="number" [(ngModel)]="paymentModel.cvc" name="cvc" required placeholder="123">
+              </div>
+            </div>
+          </div>
+  
+          <button type="submit" [disabled]="!rentForm.valid" class="btn-submit-final">
+            בצע תשלום והזמן עכשיו
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>

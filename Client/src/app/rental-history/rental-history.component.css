@@ -1,0 +1,104 @@
+.history-wrapper {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    direction: rtl;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.history-header {
+    margin-bottom: 30px;
+    border-right: 4px solid #2b46e2;
+    padding-right: 15px;
+}
+
+.history-header h2 {
+    color: #2c3e50;
+    margin: 0;
+}
+
+.history-header p {
+    color: #7f8c8d;
+    margin-top: 5px;
+}
+
+/* תג סטטיסטיקה */
+.stats-badge {
+    display: inline-block;
+    background-color: #e8f0fe;
+    color: #2b46e2;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* עיצוב הטבלה המודרנית */
+.table-responsive {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden; /* כדי שהפינות המעוגלות יעבדו */
+}
+
+.modern-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: right;
+}
+
+.modern-table th {
+    background-color: #f8f9fa;
+    color: #34495e;
+    padding: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-bottom: 2px solid #edf2f7;
+}
+
+.modern-table td {
+    padding: 15px 18px;
+    border-bottom: 1px solid #f1f1f1;
+    color: #444;
+    font-size: 15px;
+}
+
+.modern-table tr:hover {
+    background-color: #fcfdfe;
+}
+
+.bold-text {
+    font-weight: bold;
+    color: #2b46e2;
+}
+
+.status-tag {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* עיצוב למצב ריק */
+.no-rents-card {
+    text-align: center;
+    background: white;
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.no-rents-card .icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.login-alert {
+    text-align: center;
+    margin-top: 100px;
+    color: #e74c3c;
+    font-weight: bold;
+}

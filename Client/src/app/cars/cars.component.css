@@ -1,0 +1,123 @@
+.car-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 25px;
+    width: 300px;
+    position: relative;
+    border: 1px solid #eef2f6;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    direction: rtl;
+    overflow: hidden;
+}
+
+.car-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(43, 70, 226, 0.12);
+    border-color: #2b46e2;
+}
+
+/* תגית הרמה בפינה */
+.car-level-badge {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    background: #2b46e2;
+    color: white;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;
+}
+
+.car-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.car-id {
+    font-size: 14px;
+    color: #a0aec0;
+    font-weight: bold;
+}
+
+.car-icon {
+    font-size: 28px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #edf2f7;
+}
+
+.info-row .label {
+    color: #718096;
+    font-size: 14px;
+}
+
+.info-row .value {
+    color: #2d3748;
+    font-weight: 600;
+}
+
+/* אזור המחיר */
+.price-section {
+    background: #f8fafc;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-item.main .price-value {
+    font-size: 20px;
+    color: #2b46e2;
+    font-weight: 800;
+}
+
+.price-item.discount {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #48bb78; /* צבע ירוק להדגשת הנחה */
+}
+
+/* כפתור הזמנה */
+.btn-rent {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: #2d3748;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s;
+}
+
+.btn-rent:hover {
+    background: #2b46e2;
+}
+
+.btn-rent .arrow {
+    transition: transform 0.3s;
+}
+
+.btn-rent:hover .arrow {
+    transform: translateX(-5px);
+}

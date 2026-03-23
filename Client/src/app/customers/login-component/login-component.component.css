@@ -1,0 +1,106 @@
+/* מרכז את כל הדף כדי שהטופס יהיה באמצע */
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* גובה מינימלי כדי שיהיה ריכוז אנכי */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+  width: 90%; /* גמישות למסכים קטנים */
+  max-width: 420px;
+  padding: 40px; /* הוספנו ריווח פנימי גדול יותר למראה נקי */
+  background-color: #ffffff;
+  border-radius: 15px; /* פינות מעוגלות יותר - נראה מודרני */
+  /* צל עמוק ורך יותר */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); 
+  border: 1px solid #f0f0f0; /* מסגרת דקה מאוד להדגשה */
+}
+
+.login-form h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #2c3e50; /* כחול-כהה מקצועי יותר משחור */
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.form-group {
+  margin-bottom: 25px; /* ריווח גדול יותר בין שדה לשדה */
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #34495e;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 2px solid #e0e0e0; /* מסגרת מעט עבה יותר */
+  border-radius: 10px; /* התאמה לפינות של המיכל */
+  box-sizing: border-box;
+  transition: all 0.3s ease; /* אנימציה לכל שינוי (צבע, מסגרת) */
+  background-color: #f8f9fa;
+}
+
+/* שדרוג המיקוד - הכי חשוב לחוויית משתמש */
+input:focus {
+  outline: none;
+  border-color: #4CAF50; /* שינוי צבע המסגרת בלחיצה */
+  background-color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(76, 175, 80, 0.1); /* הילה עדינה מסביב */
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%); /* מדורג עדין */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+  margin-top: 10px;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-2px); /* הכפתור "קופץ" טיפה למעלה */
+  box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(0); /* לחיצה מחזירה אותו למקום */
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* עיצוב לקישור ההרשמה למטה */
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
