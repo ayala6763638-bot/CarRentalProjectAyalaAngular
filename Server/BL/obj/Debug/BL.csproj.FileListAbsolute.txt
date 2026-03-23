@@ -1,0 +1,70 @@
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\bin\Debug\CarsDB.mdf
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\bin\Debug\CarsDB_log.ldf
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\bin\Debug\BL.dll
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\bin\Debug\BL.pdb
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\bin\Debug\DAL.dll
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\bin\Debug\EntityFramework.dll
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\bin\Debug\DAL.pdb
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\bin\Debug\DAL.dll.config
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\bin\Debug\EntityFramework.xml
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\obj\Debug\BL.csproj.Up2Date
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\obj\Debug\BL.dll
+C:\Users\user1\Desktop\תכנות שנה ב\Angular\cars project\Cars\BL\obj\Debug\BL.pdb
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\bin\Debug\CarsDB.mdf
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\bin\Debug\CarsDB_log.ldf
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\bin\Debug\BL.dll
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\bin\Debug\BL.pdb
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\bin\Debug\DAL.dll
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\bin\Debug\DAL.pdb
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\bin\Debug\DAL.dll.config
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\obj\Debug\BL.csproj.Up2Date
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\obj\Debug\BL.dll
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\פרויקט אנגולר\פרויקט אנגולר\Cars\BL\obj\Debug\BL.pdb
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\bin\Debug\CarsDB.mdf
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\bin\Debug\CarsDB_log.ldf
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\bin\Debug\BL.dll
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\bin\Debug\BL.pdb
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\bin\Debug\DAL.dll
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\bin\Debug\DAL.pdb
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\bin\Debug\DAL.dll.config
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\obj\Debug\BL.csproj.Up2Date
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\obj\Debug\BL.dll
+C:\Users\admin\Desktop\תיכנות\כיתה יד\Angular\שינוי\Cars\BL\obj\Debug\BL.pdb
+C:\Users\user1\Downloads\שינוי\Cars\BL\bin\Debug\CarsDB.mdf
+C:\Users\user1\Downloads\שינוי\Cars\BL\bin\Debug\CarsDB_log.ldf
+C:\Users\user1\Downloads\שינוי\Cars\BL\bin\Debug\BL.dll
+C:\Users\user1\Downloads\שינוי\Cars\BL\bin\Debug\BL.pdb
+C:\Users\user1\Downloads\שינוי\Cars\BL\bin\Debug\DAL.dll
+C:\Users\user1\Downloads\שינוי\Cars\BL\bin\Debug\EntityFramework.dll
+C:\Users\user1\Downloads\שינוי\Cars\BL\bin\Debug\DAL.pdb
+C:\Users\user1\Downloads\שינוי\Cars\BL\bin\Debug\DAL.dll.config
+C:\Users\user1\Downloads\שינוי\Cars\BL\bin\Debug\EntityFramework.xml
+C:\Users\user1\Downloads\שינוי\Cars\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\user1\Downloads\שינוי\Cars\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\user1\Downloads\שינוי\Cars\BL\obj\Debug\BL.csproj.Up2Date
+C:\Users\user1\Downloads\שינוי\Cars\BL\obj\Debug\BL.dll
+C:\Users\user1\Downloads\שינוי\Cars\BL\obj\Debug\BL.pdb
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\bin\Debug\CarsDB.mdf
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\bin\Debug\CarsDB_log.ldf
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\bin\Debug\BL.dll
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\bin\Debug\BL.pdb
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\bin\Debug\DAL.dll
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\bin\Debug\EntityFramework.dll
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\bin\Debug\DAL.pdb
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\bin\Debug\DAL.dll.config
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\bin\Debug\EntityFramework.xml
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\obj\Debug\BL.csproj.Up2Date
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\obj\Debug\BL.dll
+C:\תכנות י''ד\angular\ProjectRentsCars\Server\BL\obj\Debug\BL.pdb
